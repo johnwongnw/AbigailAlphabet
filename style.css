@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2rem;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#game-container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+.uppercase, .lowercase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.letter {
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+#nav-buttons button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+}
